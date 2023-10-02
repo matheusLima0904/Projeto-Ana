@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <script src="src/js/index.js"></script>
+    <title>cliente</title>
+</head>
+<body>
+
+    <h1>Formulario do Cliente</h1><br><br><br>
+    <form action="pagina.php" method="POST">
+
+        <input type="text" id="nome" name="nome" required placeholder="Nome: ">
+
+        <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome: ">
+
+        <label for="telefone"></label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone:" oninput="formatarTelefone(this)" required>
+
+        <label for="bairro"></label>
+        <input type="text" id="bairro" name="bairro" required placeholder="Nome Do Bairro: ">
+
+        <label for="endereco"></label>
+        <input type="text" id="endereco" name="endereco" required placeholder="Nome Da Rua: ">
+
+        <input type="text" id="numero" name="numero" required placeholder="Numero Da Residencia: "><br><br>
+
+        <input type="date" id="data" name="data" required>
+        <input type="time" id="horario" name="horario" required><br><br>
+
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+
+        <label for="pagamento">Forma de Pagamento:</label>
+        <select id="pagamento" name="pagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="pix">Pix</option>
+            <option value="cartao_credito">Cartão de Crédito</option>
+            <option value="cartao_debito">Cartão de Débito</option>
+        </select>
+
+        <input type="submit" value="Enviar Pedido">
+    </form>
+
+</body>
+</html>

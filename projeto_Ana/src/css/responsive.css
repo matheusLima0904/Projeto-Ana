@@ -1,0 +1,26 @@
+@media screen and (min-width: 1000px) {
+    #nome, #sobrenome, #telefone, #bairro, #endereco, #numero, #data, #horario, #observacoes, #pagamento {
+        max-width: 500px;
+        display: inline-block;
+        width: calc(20% - 10px);
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+    #nome, #sobrenome, #telefone, #bairro, #endereco, #numero, #data, #horario, #observacoes, #pagamento {
+        max-width: 500px;
+        display: inline-block;
+        width: calc(33.33% - 10px);
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #nome, #sobrenome, #telefone, #bairro, #endereco, #numero, #observacoes, #pagamento {
+        max-width: 90%;
+        display: block;
+        width: 80%;
+        margin-right: 20px;
+    }
+}

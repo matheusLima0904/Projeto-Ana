@@ -1,0 +1,125 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#observacoes {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 10px; 
+}
+
+#telefone{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(20% - 10px);
+    margin-right: 20px;
+}
+
+#nome, #sobrenome {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(20% - 10px);
+    margin-right: 20px;
+}
+
+#endereco, #bairro{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(20% - 10px);
+    margin-right: 20px;
+}
+
+#numero {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(20% - 10px);
+    margin-right: 20px;
+}
+
+#data, #horario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(10% - 10px);
+    margin-right: 20px;
+}
+
+#pagamento{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+
+    display: inline-block;
+    width: calc(20% - 10px);
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 16px; /* Reduzindo o padding */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
